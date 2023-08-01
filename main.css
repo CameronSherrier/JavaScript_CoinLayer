@@ -1,0 +1,41 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-image: url(https://static7.depositphotos.com/1000635/721/i/950/depositphotos_7218773-stock-photo-golden-coins.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th:hover {
+    background-color: black;
+    color: white;
+}
+
+td:hover {
+    background-color: black;
+    color: white;
+}
